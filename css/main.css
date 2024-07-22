@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arsenal-B';
+    src: url('../webfonts/ArsenalSC-Bold.woff2') format('woff2'),
+        url('../webfonts/ArsenalSC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenal-R';
+    src: url('../webfonts/ArsenalSC-Regular.woff2') format('woff2'),
+        url('../webfonts/ArsenalSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenal-BI';
+    src: url('../webfonts/ArsenalSC-BoldItalic.woff2') format('woff2'),
+        url('../webfonts/ArsenalSC-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body{
+    background-color: rgb(118, 115, 115);
+}
+.my-card{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    font-family: "Arsenal-BI";
+}
+.card-p{
+    font-family:"Arsenal-R" ;
+
+}
+
+#display{
+    font-family:"Arsenal-B" ;
+color: darkred;
+}
